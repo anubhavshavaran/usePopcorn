@@ -4,8 +4,8 @@ import StarRating from "./StarRating";
 const tempMovieData = [];
 const tempWatchedData = [];
 const average = (arr) => arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
-// const KEY = '66c3d03a';
-const KEY = 'f84fc31d';
+const KEY = '66c3d03a';
+// const KEY = 'f84fc31d';
 
 function Search({query, setQuery}) {
   return <input
